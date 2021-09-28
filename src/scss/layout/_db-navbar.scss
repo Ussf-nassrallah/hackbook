@@ -1,0 +1,40 @@
+.db-nav {
+  background-color: #fff;
+  height: 10vh;
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 1.5rem;
+
+  &__logo {
+    width: 150px;
+  }
+
+  &__searchBox {
+    background-color: #f4f4f4;
+    width: 500px;
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-input {
+      width: 100% !important;
+    }
+
+    &-icon {
+      opacity: 0.3;
+    }
+  }
+
+  &__cta {
+    .fas {
+      opacity: 0.3;
+      font-size: 1.2rem;
+    }
+  }
+}
