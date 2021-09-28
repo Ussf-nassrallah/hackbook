@@ -1,0 +1,11 @@
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.3rem;
+  border-radius: 6px;
+  text-transform: capitalize;
+
+  &-primary {
+    background-color: $primary-clr;
+    color: #fff !important;
+  }
+}
